@@ -4,7 +4,7 @@
   "description": "Example usage of a DateSelector component for React",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/justinmimbs/dateselector-example.git"
   },
   "dependencies": {
     "react": "15.x.x",
