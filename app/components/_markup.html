@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>markup.html</title>
+        <link rel="stylesheet" href="DateSelector.css">
+        <link rel="stylesheet" href="DateSelectorDropdown.css">
+        <link rel="stylesheet" href="DateSelectorDropdownButton.css">
+        <style>
+
+html { font-size: 12px; }
+body { margin: 40px; font-family: Arial, Helvetica; line-height: 1rem; }
+li { padding: 0.5em; }
+
+        </style>
+    </head>
+    <body>
+        <div class="date-selector">
+            <div class="column year">
+                <ol>
+                    <li>2009</li>
+                    <li>2010</li>
+                    <li>2011</li>
+                    <li>2012</li>
+                    <li>2013</li>
+                    <li>2014</li>
+                    <li>2015</li>
+                    <li class="selected">2016</li>
+                </ol>
+            </div>
+            <div class="column month">
+                <ol>
+                    <li>Jan</li>
+                    <li>Feb</li>
+                    <li>Mar</li>
+                    <li>Apr</li>
+                    <li>May</li>
+                    <li class="selected">Jun</li>
+                    <li>Jul</li>
+                    <li>Aug</li>
+                    <li>Sep</li>
+                    <li>Oct</li>
+                    <li>Nov</li>
+                    <li>Dec</li>
+                </ol>
+            </div>
+            <div class="column date">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                            <th>Su</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="dimmed">30</td>
+                            <td class="dimmed">31</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td class="selected">27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td class="dimmed">1</td>
+                            <td class="dimmed">2</td>
+                            <td class="dimmed">3</td>
+                        </tr>
+                        <tr>
+                            <td class="dimmed">4</td>
+                            <td class="dimmed">5</td>
+                            <td class="dimmed">6</td>
+                            <td class="dimmed">7</td>
+                            <td class="dimmed">8</td>
+                            <td class="dimmed">9</td>
+                            <td class="dimmed">10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br>
+        <div class="date-selector-dropdown">
+            <div class="button-container">
+                <div class="date-selector-dropdown-button">
+                    <div class="date">2016-05-05</div><div class="arrow"><span>&#x25BC;</span></div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="date-selector-dropdown">
+            <div class="button-container">
+                <div class="date-selector-dropdown-button open">
+                    <div class="date">2016-05-05</div><div class="arrow"><span>&#x25B2;</span></div>
+                </div>
+            </div>
+            <div class="date-selector">
+                <div class="column year">
+                    <ol>
+                        <li>2009</li>
+                        <li>2010</li>
+                        <li>2011</li>
+                        <li>2012</li>
+                        <li>2013</li>
+                        <li>2014</li>
+                        <li>2015</li>
+                        <li class="selected">2016</li>
+                    </ol>
+                </div>
+                <div class="column month">
+                    <ol>
+                        <li>Jan</li>
+                        <li>Feb</li>
+                        <li>Mar</li>
+                        <li>Apr</li>
+                        <li>May</li>
+                        <li class="selected">Jun</li>
+                        <li>Jul</li>
+                        <li>Aug</li>
+                        <li>Sep</li>
+                        <li>Oct</li>
+                        <li>Nov</li>
+                        <li>Dec</li>
+                    </ol>
+                </div>
+                <div class="column date">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Mo</th>
+                                <th>Tu</th>
+                                <th>We</th>
+                                <th>Th</th>
+                                <th>Fr</th>
+                                <th>Sa</th>
+                                <th>Su</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="dimmed">30</td>
+                                <td class="dimmed">31</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                            </tr>
+                            <tr>
+                                <td class="selected">27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td class="dimmed">1</td>
+                                <td class="dimmed">2</td>
+                                <td class="dimmed">3</td>
+                            </tr>
+                            <tr>
+                                <td class="dimmed">4</td>
+                                <td class="dimmed">5</td>
+                                <td class="dimmed">6</td>
+                                <td class="dimmed">7</td>
+                                <td class="dimmed">8</td>
+                                <td class="dimmed">9</td>
+                                <td class="dimmed">10</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <ol>
+            <li>alfa</li>
+            <li>bravo</li>
+            <li>charlie</li>
+            <li>delta</li>
+            <li>echo</li>
+            <li>foxtrot</li>
+            <li>golf</li>
+            <li>hotel</li>
+            <li>india</li>
+            <li>juliett</li>
+            <li>kilo</li>
+        </ol>
+        <div class="date-selector scrollable-year">
+            <div class="column year">
+                <ol>
+                    <li>2000</li>
+                    <li>2001</li>
+                    <li>2002</li>
+                    <li>2003</li>
+                    <li>2004</li>
+                    <li>2005</li>
+                    <li>2006</li>
+                    <li>2007</li>
+                    <li>2008</li>
+                    <li>2009</li>
+                    <li>2010</li>
+                    <li>2011</li>
+                    <li>2012</li>
+                    <li>2013</li>
+                    <li>2014</li>
+                    <li>2015</li>
+                    <li class="selected">2016</li>
+                </ol>
+            </div>
+            <div class="column month">
+                <ol>
+                    <li>Jan</li>
+                    <li>Feb</li>
+                    <li>Mar</li>
+                    <li>Apr</li>
+                    <li>May</li>
+                    <li class="selected">Jun</li>
+                    <li class="disabled">Jul</li>
+                    <li class="disabled">Aug</li>
+                    <li class="disabled">Sep</li>
+                    <li class="disabled">Oct</li>
+                    <li class="disabled">Nov</li>
+                    <li class="disabled">Dec</li>
+                </ol>
+            </div>
+            <div class="column date">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                            <th>Su</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="dimmed">30</td>
+                            <td class="dimmed">31</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td class="selected">7</td>
+                            <td class="disabled">8</td>
+                            <td class="disabled">9</td>
+                            <td class="disabled">10</td>
+                            <td class="disabled">11</td>
+                            <td class="disabled">12</td>
+                        </tr>
+                        <tr>
+                            <td class="disabled">13</td>
+                            <td class="disabled">14</td>
+                            <td class="disabled">15</td>
+                            <td class="disabled">16</td>
+                            <td class="disabled">17</td>
+                            <td class="disabled">18</td>
+                            <td class="disabled">19</td>
+                        </tr>
+                        <tr>
+                            <td class="disabled">20</td>
+                            <td class="disabled">21</td>
+                            <td class="disabled">22</td>
+                            <td class="disabled">23</td>
+                            <td class="disabled">24</td>
+                            <td class="disabled">25</td>
+                            <td class="disabled">26</td>
+                        </tr>
+                        <tr>
+                            <td class="disabled">27</td>
+                            <td class="disabled">28</td>
+                            <td class="disabled">29</td>
+                            <td class="disabled">30</td>
+                            <td class="disabled dimmed">1</td>
+                            <td class="disabled dimmed">2</td>
+                            <td class="disabled dimmed">3</td>
+                        </tr>
+                        <tr>
+                            <td class="disabled dimmed">4</td>
+                            <td class="disabled dimmed">5</td>
+                            <td class="disabled dimmed">6</td>
+                            <td class="disabled dimmed">7</td>
+                            <td class="disabled dimmed">8</td>
+                            <td class="disabled dimmed">9</td>
+                            <td class="disabled dimmed">10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
