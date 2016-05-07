@@ -9,7 +9,7 @@ class ExampleForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      minDate: new Date(2012, 3, 1),
+      minDate: new Date(2010, 3, 1),
       maxDate: new Date(2019, 8, 30),
       selectedDate: new Date(2016, 0, 8),
     };

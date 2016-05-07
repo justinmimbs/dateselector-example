@@ -6,7 +6,7 @@ The `DateSelector` component displays a familiar calendar for selecting a date, 
 
 ![dateselector.png](./screenshots/dateselector.png?raw=true)
 
-The `DateSelector` component can be used alone, or through the `DateSelectorDropdown` component.
+The `DateSelector` component can be used directly, or through the `DateSelectorDropdown` component.
 
 ```jsx
 <DateSelector
@@ -28,3 +28,5 @@ The `DateSelectorDropdown` component displays a button which invokes a `DateSele
   onChange={handleChange}
 />
 ```
+
+http://justinmimbs.com/examples/dateselector
